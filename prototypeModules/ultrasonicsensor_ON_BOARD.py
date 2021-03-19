@@ -7,7 +7,7 @@ sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__
 import LogModule
 import Configs
 
-# append utils path and import utils modules
+# append utils path and import localization modules
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), "rpi/localization"))
 import readUltraSonicSensor
 import readSensor

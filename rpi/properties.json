@@ -4,12 +4,13 @@
     "port": 1883,
     "timeout": 60,
     "auth": {
-      "username": "Hey.Sensy",
-      "password": "Hey.Sensy"
+      "authType": "none",
+      "userName": "Hey.Sensy",
+      "userPassword": "Hey.Sensy"
     }
   },
   "MEDHA": {
-    "name": "MEDHA_P01",
+    "nodeID": "MEDHA_P01",
     "connectionMode": "MQTT",
     "controlMode": "POC1",
     "decisionMode": "directionalDistance",
