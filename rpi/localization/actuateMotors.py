@@ -44,10 +44,10 @@ class setMotors:
             GPIO.setmode( GPIO.BOARD )
 
             # set pin number for each motor control pins
-            GPIO.setup( self.pins["motorL"]["a"], GPIO.OUT )
-            GPIO.setup( self.pins["motorL"]["b"], GPIO.OUT )
-            GPIO.setup( self.pins["motorR"]["a"], GPIO.OUT )
-            GPIO.setup( self.pins["motorR"]["b"], GPIO.OUT )
+            GPIO.setup( config.pins["motorL"]["a"], GPIO.OUT )
+            GPIO.setup( config.pins["motorL"]["b"], GPIO.OUT )
+            GPIO.setup( config.pins["motorR"]["a"], GPIO.OUT )
+            GPIO.setup( config.pins["motorR"]["b"], GPIO.OUT )
         log.debug("motor control pins initialised for actuation")
 
     def motorMotion(self, motionName):
